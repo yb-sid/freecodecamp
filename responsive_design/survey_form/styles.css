@@ -1,0 +1,41 @@
+body {
+    width: 100%;
+    margin: 20;
+    background-color: #1b1b32;
+    color: #ffffff;
+    font-family: tahoma;
+    font-size: 20px;
+}
+
+h1,
+p {
+    margin: 1em auto;
+    text-align: center;
+}
+
+form {
+    width: 60vh;
+    min-width: 300px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2em;
+}
+
+label {
+    display: block;
+}
+
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+
+.inline {
+    display: inline;
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
